@@ -54,7 +54,7 @@ function displayProduct() {
     for(var i=0; i<productList.length; i++){
         trs +=`
         <tr>
-        <td>${i}</td>
+        <td>${i+1}</td>
         <td>${productList[i].pname}</td>
         <td>${productList[i].category}</td>
         <td>${productList[i].price}</td>
